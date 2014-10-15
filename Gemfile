@@ -27,11 +27,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 group :development do
-  gem 'rspec-rails', '2.0.0.beta.18'
+  gem 'rspec-rails', '~> 3.1.0'
 end
 
 group :test do
-  gem 'rspec', '2.0.0.beta.18'
+  gem 'rspec', '3.1.0'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
